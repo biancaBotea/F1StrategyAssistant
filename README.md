@@ -1,10 +1,10 @@
-# F1 Pit Wall Assistant — MVP
+# F1 Strategy Assistant — MVP
 
-A GenAI‑powered “Pit Wall Assistant” that recommends whether to pit or stay out, given in‑race conditions. Built as a Kaggle Notebook Capstone Project for the 5‑day Gen AI Intensive Course with Google.
+A GenAI‑powered “Strategy Assistant” that recommends whether to pit or stay out, given in‑race conditions. Built as a Kaggle Notebook Capstone Project for the 5‑day Gen AI Intensive Course with Google.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 - **Goal:** Given live race inputs (start position, lap number, tyre compound, tyre life, stops so far, track temperature, wet/dry flag, and track identifier), predict whether the car should pit this lap or stay out.
 - **Core Components:**
