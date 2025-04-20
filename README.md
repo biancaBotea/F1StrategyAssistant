@@ -124,7 +124,7 @@ def pit_check(lap_number: float, position: float, tyre_life: float, compound: st
 
 To make the agent smarter and provide more useful feedback, I incorporated few-shot prompting. This helps the agent understand how to interpret the model’s output and offer more than just a recommendation. Instead, it explains why a particular decision is being made, ensuring that the strategist knows the reasoning behind each suggestion.
 
-(This was also super helpful when I realized my model wasn't performing as well as I'd hoped. Ah, the joys of debugging. 😅)
+(This was also super helpful when I realized my model wasn't performing as well as I'd hoped. Ah, the joys of debugging.)
 
 ``` python
 """
@@ -178,9 +178,9 @@ And so the agent can be the best helper it can be, it records each recommendatio
     {
         "LapNumber": 23,
         "Position": 4,
-        "Compound": "soft",
+        "Compound": 3,
         "TyreLife": 10,
-        "TrackStatus": "dry",
+        "TrackStatus": 0,
         "TrackTemp": 28,
         "Rainfall": 0,
         "DeltaTime": 2.5,
@@ -188,6 +188,8 @@ And so the agent can be the best helper it can be, it records each recommendatio
         "PosToLose": 2,
         "TotalLaps": 50,
         "RemainingLaps": 27
+        "Decision" : "BOX, BOX'
+        "Confidence": 0.81
     },
     ...
   ]
